@@ -13,7 +13,7 @@ set nu rnu
 set ww=[,]
 set nohls
 set noswf
-set so=10
+set so=20
 set nobk
 set noet
 set tgc
@@ -22,8 +22,6 @@ set cul
 set hid
 
 call plug#begin()
-Plug 'junegunn/fzf'
-Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim'
 Plug 'lilydjwg/colorizer'
 Plug 'Raimondi/delimitMate'
